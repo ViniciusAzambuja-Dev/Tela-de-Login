@@ -19,8 +19,9 @@ body{
 a{
     text-decoration: none;
 }
+
 .containerLogin{
-    width: 25%;
+    width: max(200px, 23vw);
     height: 330px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 
     0 6px 20px 0 rgba(0,0,0,0.19);
@@ -63,6 +64,8 @@ h1{
     0 6px 20px 0 rgba(0,0,0,0.19);;
     outline: 0;
     font-family: Montserrat;
+    font-size: max(7px, 1.02vw);
+   
 }
 .buttonContainer{
     flex: 20%;
@@ -75,7 +78,7 @@ h1{
 }
 .linkContainer{
     background-image: linear-gradient(to right, rgb(181, 141, 218), rgb(154, 78, 224), rgb(141, 57, 219), rgb(162, 40, 219));
-    width: 56%;
+    width: max(50%, 14.1vw);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 25px;
@@ -88,4 +91,29 @@ h1{
 }
 .link{
     color: white;
+    font-size: max(10px, 1.3vw);
+}
+
+.inputVazio{
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: red;
+    outline: 0;
+    font-family: Montserrat;
+    font-size: max(7px, 1.02vw);
+}
+.inputVazio::placeholder{
+    color: red;
+}
+
+.inputPreenchido{
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: rgb(51, 228, 51);
+    outline: 0;
+    font-family: Montserrat;
+    font-size: max(7px, 1.02vw);
+    color: rgb(51, 228, 51);
 }
