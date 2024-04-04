@@ -7,5 +7,5 @@ HTML, CSS e JS
  <br> <br>
 <img align="center" alt="Projeto" height="260" width="280" src="https://github.com/ViniciusAzambuja-Dev/Tela-de-Login/assets/145075747/f1c26555-e1f8-48bb-ae89-168ff0440e26" />
 <br> <br>
-<img align="center" alt="Projeto" height="170" width="220" src="https://github.com/ViniciusAzambuja-Dev/Tela-de-Login/assets/145075747/4d5a52a9-0429-4192-80c2-3b9317f877cc" />
+<img align="center" alt="Projeto" height="170" width="280" src="https://github.com/ViniciusAzambuja-Dev/Tela-de-Login/assets/145075747/4d5a52a9-0429-4192-80c2-3b9317f877cc" />
 
