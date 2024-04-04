@@ -1,6 +1,6 @@
 let inputEmail = document.getElementById("email");
 let inputSenha = document.getElementById("password");
-let linkPaginaSecundaria = document.getElementById("linkPaginaSecundaria");
+let divButton = document.getElementById("divButton");
 let inputsClasse = document.querySelectorAll(".input");
 
 

@@ -50,7 +50,7 @@ h1{
     align-items: center;
   
 }
-.inputsContainerFilho{
+.form{
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -89,9 +89,12 @@ h1{
     transition: 0.3s ease;
     transform: scale(0.95);
 }
-.link{
+.buttonEntrar{
     color: white;
     font-size: max(10px, 1.3vw);
+    background-color: transparent;
+    border-width: 0;
+    cursor: pointer;
 }
 
 .inputVazio{
